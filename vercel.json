@@ -1,7 +1,6 @@
 {
-  "buildCommand": "pnpm build",
+  "buildCommand": "pnpm --filter=@n8n/editor-ui build",
   "outputDirectory": "packages/editor-ui/dist",
-  "installCommand": "pnpm install",
-  "framework": null,
-  "devCommand": "pnpm dev"
+  "installCommand": "corepack enable && pnpm install --filter=@n8n/editor-ui",
+  "framework": null
 }
