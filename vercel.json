@@ -1,0 +1,7 @@
+{
+  "buildCommand": "pnpm build",
+  "outputDirectory": "packages/editor-ui/dist",
+  "installCommand": "pnpm install",
+  "framework": null,
+  "devCommand": "pnpm dev"
+}
